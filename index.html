@@ -1,114 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link href="style.css" rel="stylesheet" />
-    <link rel="icon" href="">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
-
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#">MHD FAZI</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skill">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">MHD FAZI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skill">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
-  
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  
-    <!-- nav end -->
 
-    <!-- home start -->
-    <section class="home">
-      <div class="container home-content">
-          <div class="row align-items-center">
-              <div class="col-lg-4 col-md-6">
-                  <div class="home-image">
-                      <img src="Images/main.png" alt="">
-                  </div>
-              </div>
-              <div class="col-lg-8 col-md-6">
-                  <div class="home-content">
-                      <h1 class="t1">I AM <span>MUHAMMED FAZI</span></h1>
-                      <h3> Python Django Developer </h3>
-                      <p>This is my official portfolio to shows all
-                          Details and work experience 
-  </p>
-
-                      <div class="home-sci">
-                          <a href="https://www.linkedin.com/in/"><box-icon type='logo' name='linkedin-square'><i class='bx bxl-linkedin' ></i></box-icon></a>
-                          <a href="https://www.instagram.com/mhd_fazi_/"><box-icon type='logo' name='instagram'></box-icon><i class='bx bxl-instagram' ></i></a>
-                          <a href="https://github.com/mhdpachu"><box-icon type='logo' name='github'><i class='bx bxl-github' ></i></box-icon></a>
-                      </div>
-                  </div>
-              </div>
+    <!-- Home Section -->
+    <section id="home" class="py-5 bg-primary text-white text-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <img src="Images/main.png" alt="" class="img-fluid rounded-circle border border-light p-2" />
           </div>
-      </div>
-  </section>
-  <!-- home end -->
-
-  <!-- about start -->
-
-  <section id="about" class="about py-5">
-
-
-    <div class="container  py-5 ">
-      <div class="row">
-
-        <div class="col-md-4 col-sm-12">
-          <img id="abtimage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpNlq_VmCPX7zI4uSYaEoJn-8DX4Ef699-AXY08D9woiVXWs0r6uX21RTXzH5Rh8Jjkbo&usqp=CAU" class="img-fluid rounded" alt="personal image bdorder-"
-            data-aos="fade-right" data-aos-duration="1000">
-        </div>
-
-        <div class="col-md-8 col-sm-12 p-5">
-          <h3 class="text-light">ABOUT</h3><br>
-          <p class="text-light">FULL STACK DEVELOPER</p>
-          <p class="text-white mt-4 text-capitalize">Iam <span class="fw-bold">Muhammed Fazi </span> 
-           A dedicated Backend Developer passionate about building scalable and efficient web applications. With expertise in Python, Django, and PostgreSQL, I create robust backend systems that ensure seamless data management.
-
-I also have basic knowledge  front-end skills in HTML, CSS, and Bootstrap. My focus is on writing clean, optimized code and continuously improving my skills.
-
-I love solving complex problems and staying updated with the latest technologies. My goal is to develop high-performance applications that enhance user experience and efficiency. Let’s connect and innovate together!</p>
+          <div class="col-md-8">
+            <h1>I AM <span class="text-warning">MUHAMMED FAZI</span></h1>
+            <h3>Python Django Developer</h3>
+            <p>This is my official portfolio to showcase all my details and work experience.</p>
+            <div class="d-flex justify-content-center gap-3">
+              <a href="https://www.linkedin.com/in/" class="text-white fs-3"><i class='bx bxl-linkedin'></i></a>
+              <a href="https://www.instagram.com/mhd_fazi_/" class="text-white fs-3"><i class='bx bxl-instagram'></i></a>
+              <a href="https://github.com/mhdpachu" class="text-white fs-3"><i class='bx bxl-github'></i></a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-dark text-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center">
+            <img src="https://via.placeholder.com/250" class="img-fluid rounded" alt="Personal Image" />
+          </div>
+          <div class="col-md-8">
+            <h3>ABOUT</h3>
+            <p class="fw-bold">PYTHON DJANGO DEVELOPER</p>
+            <p>I am <span class="fw-bold">Muhammed Fazi</span>, a dedicated Backend Developer passionate about building scalable and efficient web applications. With expertise in Python, Django, and PostgreSQL, I create robust backend systems that ensure seamless data management.</p>
+            <p>I also have basic front-end skills in HTML, CSS, and Bootstrap. My focus is on writing clean, optimized code and continuously improving my skills.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
   </body>
 </html>
